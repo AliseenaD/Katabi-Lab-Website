@@ -7,7 +7,7 @@ export default function Reserch() {
     return (
         <div className="research-content">
             <NavBar /> 
-            <BannerImage image={Image} title='Research' />
+            <BannerImage title='Research' />
         </div>
     );
 }

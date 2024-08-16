@@ -1,17 +1,21 @@
 import React from "react";
 import '../styles/componentStyles.css';
 import { Link } from "react-router-dom";
+import Paper1 from '../assets/Paper1.GIF';
+import Paper2 from '../assets/Paper2.PNG';
 
 export default function SelectPublications() {
     const publications = [
         {
             link: 'https://people.csail.mit.edu/scyue/projects/bodycompass/',
+            photo: Paper1,
             title: 'BodyCompass: Monitoring Sleep Posture with Wireless Signals',
             authors: 'Shichao Yue, Yuzhe Yang, Hao Wang, Hariharan Rahul, Dina Katabi',
             information: 'ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp 2020)'
         },
         {
             link: 'https://rf-diary.csail.mit.edu/',
+            photo: Paper2,
             title: 'In-Home Daily-Life Captioning Using Radio Signals',
             authors: 'Lijie Fan*, Tianhong Li*, Yuan Yuan, Dina Katabi',
             information: 'European Conference on Computer Vision (ECCV) 2020'
@@ -20,12 +24,13 @@ export default function SelectPublications() {
 
     return (
         <div className="publications-content">
+            <p id="publications-title">SELECT PUBLICATIONS</p>
             <div className="publication-box">
-                <p id="publications-title">Select Publications</p>
                 <ul className="publications-list">
                     {publications.map((publication) => (
                         <li key={publication.title} className="publication-item">
                             <a href={publication.link}>{publication.title}</a>
+                            <img src={publication.photo} alt={publication.title} width={400} />
                             <p>{publication.authors}</p>
                             <p>{publication.information}</p>
                             <hr></hr>

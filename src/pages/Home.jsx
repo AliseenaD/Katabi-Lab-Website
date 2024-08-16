@@ -6,22 +6,15 @@ import WelcomeSection from "../components/WelcomeSection";
 import SelectPublications from "../components/SelectPublications";
 import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
 import MIT from '../assets/MIT-Logo.png';
-import Banner from '../assets/BannerImage.jpg';
 import Footer from "../components/Footer";
 
 
 export default function Home() {
-    const [loadedIn, setLoadedIn] = useState(false);
-
-    // Change load in class to start the load in
-    useEffect(() => {
-        setLoadedIn(true);
-    }, []);
 
     return (
-        <div className={`home-content ${loadedIn ? ' loaded' : ''}`}>
+        <div className='home-content'>
             <NavBar />
-            <BannerImage image={Banner} title='Katabi Lab' />
+            <BannerImage title='Katabi Lab' />
             <WelcomeSection />
             <SelectPublications />
             <div className="icon-section">

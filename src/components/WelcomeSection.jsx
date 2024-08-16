@@ -7,7 +7,7 @@ export default function WelcomeSection() {
     return (
         <div className="welcome-content">
             <div className="welcome-description">
-                <p id="welcome-header">Welcome to the Katabi Lab</p>
+                <p id="welcome-header">WELCOME</p>
                 <p>The Katabi Lab at MIT is interested in the intersection of machine learning and physiological signals, 
                     focused on discovering biomarkers for neurological and inflammatory diseases as well as new machine 
                     learning techniques for this unique intersection of health and AI. On the health side, our main focus 

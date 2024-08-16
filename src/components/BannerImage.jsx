@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
+import Image from '../assets/BannerImage.jpg';
 
-export default function BannerImage({ image, title }) {
+export default function BannerImage({ title }) {
     const [translateY, setTranslateY] = useState(0);
     const bannerRef = useRef(null);
 
@@ -32,7 +33,7 @@ export default function BannerImage({ image, title }) {
     return (
         <div ref={bannerRef} className="banner-content">
             <div className="banner-image" style={{
-                backgroundImage: `url(${image})`,
+                backgroundImage: `url(${Image})`,
                 transform: `translateY(${translateY}px)`,
             }}>
             </div>
