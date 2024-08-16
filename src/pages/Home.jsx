@@ -6,6 +6,7 @@ import WelcomeSection from "../components/WelcomeSection";
 import SelectPublications from "../components/SelectPublications";
 import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
 import MIT from '../assets/MIT-Logo.png';
+import Banner from '../assets/BannerImage.jpg';
 import Footer from "../components/Footer";
 
 
@@ -17,12 +18,10 @@ export default function Home() {
         setLoadedIn(true);
     }, []);
 
-    const image = 'https://lh3.googleusercontent.com/3milkX-m2tPHzMbPZaiYETTwPooWYm9SIuEqUYX4RQ8KR7KbjZF3m4szp80hYkaOYRXKUe4u35vTHnZjpBC4vOw=w16383';
-    console.log(loadedIn);
     return (
         <div className={`home-content ${loadedIn ? ' loaded' : ''}`}>
             <NavBar />
-            <BannerImage image={image} title='Katabi Lab' />
+            <BannerImage image={Banner} title='Katabi Lab' />
             <WelcomeSection />
             <SelectPublications />
             <div className="icon-section">

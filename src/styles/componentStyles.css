@@ -18,16 +18,19 @@ SELECT PUBLICATIONS STYLES
 }
 
 #publications-title {
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
     color: #750014;
     font-weight: 700;
 }
 
 .publications-list {
-    gap: 10px;
     color: #40464c;
     list-style: none;
+}
+
+.publication-item {
+    margin-top: 2rem;
 }
 
 .publication-item a {
@@ -105,7 +108,7 @@ WELCOME SECTION STYLES
 #welcome-header {
     font-weight: 700;
     color: #750014;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .button-holder {
@@ -136,14 +139,26 @@ BANNER IMAGE STYLES
 }
 
 .banner-title {
+    margin: 0 auto;
     position: absolute;
     bottom: 150px;
     left: 0;
     width: 100%;
-    color: #f6f6f6;
+    color: #750014;
     font-size: 40px;
     text-align: center;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.banner-title p {
+    background-color: #8b959e;
+    padding: 0.7rem 0;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 35%;
 }
 
 /*
