@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import '../styles/NavBar.css';
+import '../styles/componentStyles.css';
+import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
 
 export default function NavBar() {
     const [menu, setMenu] = useState(false); // For hamburger menu functionality
@@ -20,7 +21,7 @@ export default function NavBar() {
 
     return (
         <div className="nav-contents">
-            <Link className="link" id="katabi-link" to='/'>Logo Placeholder</Link>
+            <Link className="link" id="katabi-link" to='/'><SVG width="50" height="50" /></Link>
             <div className="hamburger" onClick={() => setMenu(!menu)}>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
