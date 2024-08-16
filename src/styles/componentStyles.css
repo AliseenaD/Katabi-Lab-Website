@@ -87,7 +87,7 @@ SELECT PUBLICATIONS STYLES
 }
 
 .button:hover {
-    background-color: #d4d9dd;
+    background-color: #f0efef;
 }
 
 /*
@@ -168,7 +168,7 @@ BANNER IMAGE STYLES
     font-size: 6rem; /* Adjust as needed */
     font-weight: bold;
     text-transform: uppercase;
-    color: #f6f6f6;
+    color: #f0efef;
     background-color: black;
     mix-blend-mode: screen;
     padding: 0.5rem 1rem;
