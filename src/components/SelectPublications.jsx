@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/componentStyles.css';
+import { Link } from "react-router-dom";
 
 export default function SelectPublications() {
     const publications = [
@@ -20,16 +21,20 @@ export default function SelectPublications() {
     return (
         <div className="publications-content">
             <div className="publication-box">
+                <p id="publications-title">Select Publications</p>
                 <ul className="publications-list">
                     {publications.map((publication) => (
-                        <li className="publication-item">
-                            <a href={publication.link}></a>
-                            <p>{publication.title}</p>
+                        <li key={publication.title} className="publication-item">
+                            <a href={publication.link}>{publication.title}</a>
                             <p>{publication.authors}</p>
                             <p>{publication.information}</p>
+                            <hr></hr>
                         </li>
                     ))}
                 </ul>
+                <div className="publications-button">
+                    <Link className="button" to='/publications'>Publications</Link>
+                </div>
             </div>
         </div>
     );

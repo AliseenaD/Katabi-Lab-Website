@@ -2,6 +2,7 @@
 SELECT PUBLICATIONS STYLES
 */
 .publications-content {
+    margin-top: 30px;
     position: relative;
     width: 100%;
     display: flex;
@@ -10,10 +11,68 @@ SELECT PUBLICATIONS STYLES
 
 .publication-box {
     width: 80%;
-    border-radius: 15px;
-    border: 1px solid #750014;
+    border-radius: 10px;
+    border: 1.3px solid #40464c;
+    padding: 1rem;
+    font-size: 20px;
 }
 
+#publications-title {
+    font-size: 26px;
+    text-align: center;
+    color: #750014;
+    font-weight: 700;
+}
+
+.publications-list {
+    gap: 10px;
+    color: #40464c;
+    list-style: none;
+}
+
+.publication-item a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #40464c;
+    transition: color 0.5s;
+    font-size: 22px;
+}
+
+.publication-item p {
+    color: #6a7177;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.publication-item a:hover {
+    color: #750014;
+}
+
+.publication-item hr {
+    margin-right: 7%;
+}
+
+.publications-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    padding: 0.5rem;
+    font-weight: 400;
+    color: #750014;
+    border: 1.3px solid #40464c;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: #d4d9dd;
+}
 
 /*
 WELCOME SECTION STYLES
@@ -44,7 +103,7 @@ WELCOME SECTION STYLES
 }
 
 #welcome-header {
-    font-weight: bold;
+    font-weight: 700;
     color: #750014;
     font-size: 25px;
 }
@@ -53,22 +112,6 @@ WELCOME SECTION STYLES
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.button {
-    text-decoration: none;
-    text-align: center;
-    width: 30%;
-    padding: 0.5rem;
-    background-color: #f6f6f6;
-    color: #750014;
-    border: 1px solid #750014;
-    border-radius: 10px;
-    transition: background-color 0.5s;
-}
-
-.button:hover {
-    background-color: #bcc4cb;
 }
 
 /*
@@ -147,7 +190,27 @@ NAVBAR STYLES
     margin-top: 5px;
 }
 
+/*
+FOOTER STYLES
+*/
+.footer-content {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: #40464c;
+}
+
 @media screen and (max-width: 767px) {
+    /*
+    SELECT PUBLICATIONS CONTENT
+    */
+    .publication-box {
+        width: 90%;
+    }
+
+    .button {
+        width: 50%;
+    }
 
     /*
     WELCOME SECTION CONTENT
@@ -161,11 +224,16 @@ NAVBAR STYLES
     .welcome-description {
         width: 95%;
         text-align: center;
+        padding: 0;
     }
 
     .welcome-image {
         width: 95%;
     }
+
+    /*
+    BANNER CONTENT 
+    */
 
 
     /*
@@ -203,5 +271,14 @@ NAVBAR STYLES
         margin-top: 3rem;
         max-height: 500px;
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .publication-box {
+        border-radius: 0;
+        width: 100%;
+        border-left: none;
+        border-right: none;
     }
 }
