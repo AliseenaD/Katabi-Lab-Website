@@ -1,4 +1,50 @@
 /*
+PROFILES STYLES
+*/
+.profiles-content {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+}
+
+.group-title {
+    width: 40%;
+    text-align: center;
+    color: #750014;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile-list {
+    list-style: none;
+}
+
+.profile-list img {
+    box-shadow: 0 8px 12px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.list-description {
+    padding-right: 2rem;
+}
+
+#list-name {
+    font-size: 25px;
+    color: #750014;
+    margin-bottom: -10px;
+}
+
+#list-bio, #list-email {
+    font-size: 15px;
+    color: #40464c;
+    margin-bottom: -10px;
+}
+
+#list-email {
+    margin-bottom: 2rem;
+}
+
+/*
 SELECT PUBLICATIONS STYLES
 */
 .publications-content {
@@ -239,6 +285,38 @@ FOOTER STYLES
 }
 
 @media screen and (max-width: 767px) {
+    /*
+    PROFILES STYLES
+    */
+    .profiles-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .group-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .individuals-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0rem;
+    }
+
+    .profile-list {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-list li {
+        text-align: center;
+    }
     /*
     SELECT PUBLICATIONS CONTENT
     */
