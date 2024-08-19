@@ -1,11 +1,11 @@
 import React from "react";
 import '../styles/componentStyles.css';
 import Photo from '../assets/dina-katabi-1.jpg';
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function WelcomeSection() {
     return (
-        <Fade triggerOnce>
+        <Fade direction="up" triggerOnce>
             <div className="welcome-content">
                 <div className="welcome-description">
                     <p id="welcome-header">WELCOME</p>

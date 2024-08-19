@@ -86,7 +86,7 @@ export default function People() {
     return (
         <div className="people-content">
             <NavBar />
-            <Fade triggerOnce>
+            <Fade direction="up" triggerOnce>
                 <BannerImage title='People' />
             </Fade>
             <ScholarProfiles individuals={people[0]} isPI={true} />

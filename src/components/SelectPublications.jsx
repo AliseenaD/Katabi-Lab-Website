@@ -3,7 +3,7 @@ import '../styles/componentStyles.css';
 import { Link } from "react-router-dom";
 import Paper1 from '../assets/Paper1.GIF';
 import Paper2 from '../assets/Paper2.PNG';
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function SelectPublications() {
     const publications = [
@@ -24,7 +24,7 @@ export default function SelectPublications() {
     ];
 
     return (
-        <Fade triggerOnce>
+        <Fade direction="up" triggerOnce>
             <div className="publications-content">
                 <p id="publications-title">SELECT PUBLICATIONS</p>
                 <div className="publication-box">
