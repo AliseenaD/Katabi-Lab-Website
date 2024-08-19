@@ -7,6 +7,7 @@ import SelectPublications from "../components/SelectPublications";
 import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
 import MIT from '../assets/MIT-Logo.png';
 import Footer from "../components/Footer";
+import { Fade } from "react-awesome-reveal";
 
 
 export default function Home() {
@@ -14,7 +15,9 @@ export default function Home() {
     return (
         <div className='home-content'>
             <NavBar />
-            <BannerImage title='Katabi Lab' />
+            <Fade triggerOnce>
+                <BannerImage title='Katabi Lab' />
+            </Fade>
             <WelcomeSection />
             <SelectPublications />
             <div className="icon-section">

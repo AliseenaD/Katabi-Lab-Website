@@ -1,47 +1,72 @@
 /*
-PROFILES STYLES
+SCHOLARS SECTIONß
 */
-.profiles-content {
-    margin-top: 1rem;
+
+.scholar-content {
     position: relative;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
 }
 
-.group-title {
-    width: 40%;
-    text-align: center;
+.scholar-title {
+    font-size: 28px;
     color: #750014;
-    font-size: 30px;
-    font-weight: bold;
 }
 
-.profile-list {
+.scholar-list {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -2.5rem;
 }
 
-.profile-list img {
+.individual-content {  
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pi {
+    width: 90%;
+}
+
+.individual-photo img {
+    width: 160px;
+    border-radius: 100px;
     box-shadow: 0 8px 12px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
 }
 
-.list-description {
-    padding-right: 2rem;
+.pi-photo img {
+    width: 300px;
+    border-radius: 200px;
+    box-shadow: 0 8px 12px 4px rgba(0, 0, 0, 0.25);
 }
 
-#list-name {
-    font-size: 25px;
+#individual-name {
+    font-size: 23px;
     color: #750014;
-    margin-bottom: -10px;
+    margin-top: 10px;
+    font-weight: 300;
 }
 
-#list-bio, #list-email {
+#individual-email, #individual-bio {
     font-size: 15px;
-    color: #40464c;
-    margin-bottom: -10px;
+    margin-top: -1rem;
+    color: #6a7177;
 }
 
-#list-email {
-    margin-bottom: 2rem;
+#individual-bio {
+    margin-top: -0.5rem;
 }
 
 /*
@@ -89,6 +114,7 @@ SELECT PUBLICATIONS STYLES
 
 .publication-item img {
     margin: 1rem 0;
+    width: 400px;
 }
 
 .publication-item a {
@@ -215,7 +241,7 @@ BANNER IMAGE STYLES
     font-weight: bold;
     text-transform: uppercase;
     color: #f0efef;
-    background-color: black;
+    background-color: transparent;
     mix-blend-mode: screen;
     padding: 0.5rem 1rem;
 }
@@ -372,7 +398,7 @@ FOOTER STYLES
         align-items: flex-start;
         flex-direction: column;
         width: 100%;
-        background-color: #f6f6f6;
+        background-color: #f0efef;
         max-height: 0px;
         opacity: 0;
         transition: max-height 0.4s ease-in-out, opacity 0s ease-in-out;
@@ -399,10 +425,24 @@ FOOTER STYLES
 }
 
 @media screen and (max-width: 500px) {
+
     .publication-box {
         border-radius: 0;
         width: 100%;
         border-left: none;
         border-right: none;
+    }
+
+    .publication-item img {
+        width: 80%;
+        margin-right: 2rem;
+    }
+
+    .individual-content {
+        margin: 0 0.7rem;
+    }
+
+    .individual-photo img {
+        width: 150px;
     }
 }

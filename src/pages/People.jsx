@@ -2,13 +2,15 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import '../styles/People.css';
 import BannerImage from "../components/BannerImage";
-import Profiles from "../components/Profiles";
 import KatabiPhoto from '../assets/dina-katabi-1.jpg';
-import AliPhoto from '../assets/Ali.png';
-import ChaoPhoto from '../assets/ChaoLi.png';
-import HaoPhoto from '../assets/Hao.png';
+import AliPhoto from '../assets/CircleAli.png';
+import ChaoPhoto from '../assets/CircleChao.png';
+import HaoPhoto from '../assets/CircleHao.png';
 import PengPhoto from '../assets/Peng.png';
-import MichailPhoto from '../assets/Michail.jpeg';
+import MichailPhoto from '../assets/CircleMichail.png';
+import ScholarProfiles from "../components/ScholarProfiles";
+import Footer from "../components/Footer";
+import { Fade } from "react-awesome-reveal";
 
 export default function People() {
 
@@ -18,7 +20,7 @@ export default function People() {
             content: [{
                 name: 'Dina Katabi',
                 image: KatabiPhoto,
-                bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
+                bio: `Dina Katabi is the Andrew & Erna Viterbi Professor of Electrical Engineering and Computer Science at MIT. She is also the director of the MIT’s Center for Wireless Networks and Mobile Computing, a member of the National Academy of Engineering, and a recipient of the MacArthur Genius Award.  Professor Katabi received her PhD and MS from MIT in 2003 and 1999, and her Bachelor of Science from Damascus University in 1995.  Katabi's research focuses on innovative mobile and wireless technologies with particular application to digital health.  Her research has been recognized by the ACM Grace Murray Hopper Award, the SIGCOMM test of Time Award, the Faculty Research Innovation Fellowship, a Sloan Fellowship, the NBX Career Development chair, and the NSF CAREER award. Her students received the ACM Best Doctoral Dissertation Award in Computer Science and Engineering twice. Further, her work was recognized by the IEEE William R. Bennett prize, three ACM SIGCOMM Best Paper awards, an NSDI Best Paper award, and a TR10 award. Several start-ups have been spun out of Katabi's lab such as PiCharging and Emerald. `,
                 email: 'personemail@mit.edu'
             }]
         },
@@ -56,6 +58,27 @@ export default function People() {
                     email: 'personemail@mit.edu'
                 }
             ]
+        },
+        {
+            title: 'Past Students',
+            content: [
+                {
+                    name: 'John Doe',
+                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
+                },
+                {
+                    name: 'Jane Show',
+                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
+                },
+                {
+                    name: 'Bob Dylan',
+                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
+                },
+                {
+                    name: 'Marcus Doe',
+                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
+                }
+            ]
         }
     ]
 
@@ -63,10 +86,15 @@ export default function People() {
     return (
         <div className="people-content">
             <NavBar />
-            <BannerImage title='People' />
-            <Profiles individuals={people[0]} />
+            <Fade triggerOnce>
+                <BannerImage title='People' />
+            </Fade>
+            <ScholarProfiles individuals={people[0]} isPI={true} />
             <hr></hr>
-            <Profiles individuals={people[1]} />
+            <ScholarProfiles individuals={people[1]} />
+            <hr></hr>
+            <ScholarProfiles individuals={people[2]} />
+            <Footer />
         </div>
     )
 }

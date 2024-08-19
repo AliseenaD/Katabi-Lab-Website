@@ -3,6 +3,7 @@ import '../styles/componentStyles.css';
 import { Link } from "react-router-dom";
 import Paper1 from '../assets/Paper1.GIF';
 import Paper2 from '../assets/Paper2.PNG';
+import { Fade } from "react-awesome-reveal";
 
 export default function SelectPublications() {
     const publications = [
@@ -23,24 +24,26 @@ export default function SelectPublications() {
     ];
 
     return (
-        <div className="publications-content">
-            <p id="publications-title">SELECT PUBLICATIONS</p>
-            <div className="publication-box">
-                <ul className="publications-list">
-                    {publications.map((publication) => (
-                        <li key={publication.title} className="publication-item">
-                            <a href={publication.link}>{publication.title}</a>
-                            <img src={publication.photo} alt={publication.title} width={400} />
-                            <p>{publication.authors}</p>
-                            <p>{publication.information}</p>
-                            <hr></hr>
-                        </li>
-                    ))}
-                </ul>
-                <div className="publications-button">
-                    <Link className="button" to='/publications'>Publications</Link>
+        <Fade triggerOnce>
+            <div className="publications-content">
+                <p id="publications-title">SELECT PUBLICATIONS</p>
+                <div className="publication-box">
+                    <ul className="publications-list">
+                        {publications.map((publication) => (
+                            <li key={publication.title} className="publication-item">
+                                <a href={publication.link}>{publication.title}</a>
+                                <img src={publication.photo} alt={publication.title} />
+                                <p>{publication.authors}</p>
+                                <p>{publication.information}</p>
+                                <hr></hr>
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="publications-button">
+                        <Link className="button" to='/publications'>Publications</Link>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div>  
+        </Fade>
     );
 }

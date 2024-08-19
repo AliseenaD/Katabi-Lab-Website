@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from '../assets/BannerImage.jpg';
+import { Fade } from "react-awesome-reveal";
 
 export default function BannerImage({ title }) {
     const [translateY, setTranslateY] = useState(0);
@@ -31,15 +32,15 @@ export default function BannerImage({ title }) {
     }, []);
 
     return (
-        <div ref={bannerRef} className="banner-content">
-            <div className="banner-image" style={{
-                backgroundImage: `url(${Image})`,
-                transform: `translateY(${translateY}px)`,
-            }}>
+            <div ref={bannerRef} className="banner-content">
+                <div className="banner-image" style={{
+                    backgroundImage: `url(${Image})`,
+                    transform: `translateY(${translateY}px)`,
+                }}>
+                </div>
+                <div className="banner-title">
+                        <p>{title}</p>
+                </div>
             </div>
-            <div className="banner-title">
-                    <p>{title}</p>
-            </div>
-        </div>
     );
 }
