@@ -3,7 +3,7 @@ import '../styles/componentStyles.css';
 import { Link } from "react-router-dom";
 import Paper1 from '../assets/Paper1.GIF';
 import Paper2 from '../assets/Paper2.PNG';
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function SelectPublications() {
     const publications = [

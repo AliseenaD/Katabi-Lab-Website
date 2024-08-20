@@ -1,10 +1,27 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from '../assets/BannerImage.jpg';
-import { Fade } from "react-awesome-reveal";
 
 export default function BannerImage({ title }) {
     const [translateY, setTranslateY] = useState(0);
     const bannerRef = useRef(null);
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    // Get the dimensions for resizing measurements
+    function getWindowDimensions() {
+        const {innerWidth: width, innerHeight: height} = window;
+        return {
+            width, height
+        };
+    }
+
+    // Update window dimensions
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+        }
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     // Create the scroll effect of the banner image
     useEffect(() => {
@@ -31,6 +48,14 @@ export default function BannerImage({ title }) {
         };
     }, []);
 
+    // Dynamically update font size
+    function getTitleSize(width) {
+        if (width <= 767) {
+            return `${Math.max(3, width / 130)}rem`;
+        }
+        return '6rem';
+    }
+
     return (
             <div ref={bannerRef} className="banner-content">
                 <div className="banner-image" style={{
@@ -39,7 +64,7 @@ export default function BannerImage({ title }) {
                 }}>
                 </div>
                 <div className="banner-title">
-                        <p>{title}</p>
+                    <p style={{ fontSize: getTitleSize(windowDimensions.width) }}>{title}</p>
                 </div>
             </div>
     );
