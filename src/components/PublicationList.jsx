@@ -11,10 +11,8 @@ export default function PublicationList() {
 
   
   async function fetchPublications() {
-    const url = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=nst5fHgAAAAJ&sort=pubdate&api_key=${PUBLICATION_KEY}`;
-
     try {
-      const response = await fetch(url);
+      const response = await fetch('http://localhost:3000/publications');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
