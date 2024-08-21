@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import NavBar from "../components/NavBar";
 import '../styles/Home.css';
 import BannerImage from "../components/BannerImage";
 import WelcomeSection from "../components/WelcomeSection";
 import SelectPublications from "../components/SelectPublications";
 import Footer from "../components/Footer";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Logos from "../components/Logos";
 
 

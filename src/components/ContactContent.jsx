@@ -1,8 +1,6 @@
 import React from "react";
 import '../styles/componentStyles.css';
 import { Fade } from "react-awesome-reveal";
-import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
-import MIT from '../assets/MIT-Logo.png';
 
 export default function ContactContent() {
     return (

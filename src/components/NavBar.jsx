@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../styles/componentStyles.css';
 import {ReactComponent as SVG} from '../assets/LabLogoSvg.svg';
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function NavBar() {
     const [menu, setMenu] = useState(false); // For hamburger menu functionality

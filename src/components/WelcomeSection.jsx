@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/componentStyles.css';
 import Photo from '../assets/dina-katabi-1.jpg';
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function WelcomeSection() {
     return (

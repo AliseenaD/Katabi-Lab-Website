@@ -63,11 +63,80 @@ PUBLICATIONS LIST
 */
 .publist-content {
     position: relative;
-    margin: 2rem 0;
     width: 100%;
-    background-color: #40464c;
 }
 
+.article-list {
+    padding: 1rem 7%;
+}
+
+#articles-year {
+    font-size: 37px;
+    color: #750014;
+    font-weight: 500;
+}
+
+/*
+PUBLICATION CARD
+*/
+.article-content {
+    margin: 2rem 0;
+}
+
+.article-content p {
+    margin: 0.2rem 0;
+}
+
+.article-title {
+    font-size: 23px;
+    color: #750014;
+}
+
+.article-authors {
+    font-size: 17px;
+    color: #40464c;
+}
+
+.article-publication {
+    font-size: 15px;
+    color: #8b959e;
+}
+
+/*
+ARTICLE CARD
+*/
+.globe-icon {
+    position: relative;
+    top: 5px;
+}
+
+.button-cited {
+    width: 100%;
+    display: flex;
+}
+
+.cited-by, .article-button {
+    color: #750014;
+    padding: 0.2rem;
+    border: 0.5px solid #750014;
+    border-radius: 5px;
+}
+
+.cited-by {
+    display: flex;
+    align-items: end;
+}
+
+.article-button {
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: border 0.5s, color 0.5s;
+}
+
+.article-button:hover {
+    color: #ff1423;
+    border: 0.5px solid #ff1423;
+}
 
 /*
 SCHOLARS SECTION

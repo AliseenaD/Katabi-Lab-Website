@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import BannerImage from "../components/BannerImage";
 import { Fade } from "react-awesome-reveal";
 import PublicationList from "../components/PublicationList";
+import Footer from "../components/Footer";
 
 export default function Publications() {
     return (
@@ -12,6 +13,7 @@ export default function Publications() {
                 <BannerImage title='Publications' />
             </Fade>
             <PublicationList />
+            <Footer />
         </div>  
     );
 }
