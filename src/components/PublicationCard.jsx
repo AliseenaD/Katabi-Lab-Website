@@ -10,7 +10,7 @@ export default function PublicationCard({ article }) {
             <p className="article-authors">{article.authors}</p>
             <div className="publication-link">
                 <p className="article-publication">{article.publication}</p>
-                <ArticleButton articleLink={article.link} citedBy={article.cited_by.value} />
+                <ArticleButton articleLink={article.link} />
             </div>
         </div>
     );

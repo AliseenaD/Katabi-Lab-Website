@@ -2,18 +2,22 @@
 RESEARCH CARD STYLES
 */
 .projectCard-content {
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
+    box-sizing: border-box;
     padding: 0.5rem 2rem;
     background-color: #f6f6f6;
     box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.125);
     border-radius: 5px;
 }
 
-.projectCard-content img {
+.project-image {
+    width: 50%;
+}
+
+.project-image img {
     width: 300px;
     box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.125);
-    height: auto;
     border-radius: 5px;
 }
 
@@ -22,6 +26,21 @@ RESEARCH CARD STYLES
     text-align: left;
     font-size: 25px;
     color: #750014;
+}
+
+.image-description {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.project-description {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 0rem 1rem;
 }
 
 #card-description {
@@ -148,31 +167,22 @@ PUBLICATION CARD
 /*
 ARTICLE CARD
 */
-.globe-icon {
-    position: relative;
-    top: 5px;
-}
-
 .button-cited {
     width: 100%;
     display: flex;
 }
 
-.cited-by, .article-button {
+.article-button {
     color: #750014;
     padding: 0.2rem;
     border: 0.5px solid #750014;
     border-radius: 5px;
 }
 
-.cited-by {
-    display: flex;
-    align-items: end;
-}
-
 .article-button {
     text-decoration: none;
-    margin-right: 1rem;
+    display: flex;
+    justify-content: space-around;
     transition: border 0.5s, color 0.5s;
 }
 
@@ -493,6 +503,22 @@ FOOTER STYLES
 
 @media screen and (max-width: 767px) {
     /*
+    PROJECT CARD STYLES
+    */
+    .image-description {
+        flex-direction: column;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+
+    .project-description {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*
     CONTACT STYLES
     */
     .positions-container {
@@ -576,11 +602,6 @@ FOOTER STYLES
     }
 
     /*
-    BANNER CONTENT 
-    */
-
-
-    /*
     NAVBAR CONTENT
     */
     .nav-contents {
@@ -638,6 +659,10 @@ FOOTER STYLES
 
     .individual-photo img {
         width: 150px;
+    }
+
+    .project-image img {
+        width: 100%;
     }
 
     .researchIntro-container {
