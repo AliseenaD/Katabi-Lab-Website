@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Image from '../assets/BannerImage.jpg';
+import Image from '../assets/BannerImage.png';
 
 export default function BannerImage({ title }) {
     const [translateY, setTranslateY] = useState(0);

@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 import '../styles/Research.css';
 import { Fade } from "react-awesome-reveal";
 import ResearchIntro from "../components/ResearchIntro";
-import PlaceOne from '../assets/PlaceHolder1.jpg';
-import PlaceTwo from '../assets/intelligent-wireless-w.jpg';
-import PlaceThree from '../assets/Place3.jpeg';
+import PlaceOne from '../assets/parkinsons.webp';
+import PlaceTwo from '../assets/mit-parkinsons.webp';
+import PlaceThree from '../assets/Place3.png';
 import ProjectCard from "../components/ProjectCard";
 
 export default function Reserch() {
