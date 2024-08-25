@@ -8,6 +8,8 @@ import ChaoPhoto from '../assets/CircleChao.png';
 import HaoPhoto from '../assets/CircleHao.png';
 import PengPhoto from '../assets/Peng.png';
 import MichailPhoto from '../assets/CircleMichail.png';
+import BlankPhoto from '../assets/blank_profile.png';
+import KaiwenPhoto from '../assets/kaiwen.jpeg';
 import ScholarProfiles from "../components/ScholarProfiles";
 import Footer from "../components/Footer";
 import { Fade } from "react-awesome-reveal";
@@ -25,37 +27,43 @@ export default function People() {
             }]
         },
         {
-            title: 'PhD Scholars',
+            title: 'Current Students',
             content: [
+                {
+                    name: 'Hao He',
+                    image: HaoPhoto,
+                    bio: 'PhD Student',
+                    email: 'haohe@mit.edu'
+                },
                 {
                     name: 'Ali Mirzazadeh',
                     image: AliPhoto,
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
-                    email: 'personemail@mit.edu'
+                    bio: 'PhD Student',
+                    email: 'alimirz@mit.edu'
                 },
                 {
                     name: 'Chao Li',
                     image: ChaoPhoto,
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
-                    email: 'personemail@mit.edu'
-                },
-                {
-                    name: 'Hao He',
-                    image: HaoPhoto,
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
-                    email: 'personemail@mit.edu'
+                    bio: 'PhD Student',
+                    email: 'chaoli@mit.edu'
                 },
                 {
                     name: 'Peng Cao',
                     image: PengPhoto,
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
-                    email: 'personemail@mit.edu'
+                    bio: 'PhD Student',
+                    email: 'pengcao@mit.edu'
                 },
                 {
                     name: 'Michail Ouroutzoglou',
                     image: MichailPhoto,
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.',
-                    email: 'personemail@mit.edu'
+                    bio: 'PhD Student',
+                    email: 'michail@mit.edu'
+                },
+                {
+                    name: 'Kaiwen Zha',
+                    image: KaiwenPhoto,
+                    bio: 'PhD Student',
+                    email: 'kzha@mit.edu'
                 }
             ]
         },

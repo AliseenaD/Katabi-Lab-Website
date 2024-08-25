@@ -9,13 +9,15 @@ export default function ContactContent() {
                 <div className="positions-container">
                     <div className="positions-child">
                         <p id="container-label">PhD Applicants</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit bibendum.</p>
+                        <p>Apply through EECS PhD Application portal and place prof. Dina Katabi as one of the primary advisors. Recommended to also reach out through email to dk@mit.edu to introduce yourself.</p>
                     </div>
                     <div className="positions-child">
                         <p id="container-label">Intern Applicants</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit bibendum.</p>
+                        <p>Email alimirz@mit.edu with an introduction and a copy of your resume, with subject title MIT-UROP</p>
+                    </div>
+                    <div className="positions-child">
+                        <p id="container-label">Sponsors & Collaborators</p>
+                        <p>Email our lab administrator, Mary McDavitt at mmcdavit@csail.mit.edu and Prof. Katabi at dk@mit.edu</p>
                     </div>
                 </div>
             </Fade>

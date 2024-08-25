@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/componentStyles.css';
 import { Link } from "react-router-dom";
 import Paper1 from '../assets/Paper1.GIF';
-import Paper2 from '../assets/Paper2.PNG';
+import Paper2 from '../assets/pd_selected_publication.png';
 import { Fade } from "react-awesome-reveal";
 
 export default function SelectPublications() {
@@ -17,9 +17,9 @@ export default function SelectPublications() {
         {
             link: 'https://rf-diary.csail.mit.edu/',
             photo: Paper2,
-            title: 'In-Home Daily-Life Captioning Using Radio Signals',
-            authors: 'Lijie Fan*, Tianhong Li*, Yuan Yuan, Dina Katabi',
-            information: 'European Conference on Computer Vision (ECCV) 2020'
+            title: 'Artificial intelligence-enabled detection and assessment of Parkinson’s disease using nocturnal breathing signals',
+            authors: 'Yuzhe Yang, Yuan Yuan, Guo Zhang, Hao Wang, Ying-Cong Chen, Yingcheng Liu, Christopher G. Tarolli, Daniel Crepeau, Jan Bukartyk, Mithri R. Junna, Aleksandar Videnovic, Terry D. Ellis, Melissa C. Lipford, Ray Dorsey, Dina Katabi',
+            information: 'Nature Medicine (2022)'
         }
     ];
 
