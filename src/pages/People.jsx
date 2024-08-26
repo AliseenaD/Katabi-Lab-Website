@@ -101,7 +101,7 @@ export default function People() {
             <hr></hr>
             <ScholarProfiles individuals={people[1]} />
             <hr></hr>
-            <ScholarProfiles individuals={people[2]} />
+            <ScholarProfiles individuals={people[2]} isPastStudent={true} />
             <Footer />
         </div>
     )

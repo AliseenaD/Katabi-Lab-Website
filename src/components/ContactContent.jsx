@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 export default function ContactContent() {
     return (
         <div className="contact-container">
-            <Fade direction="up" triggerOnce>
+            <Fade delay={300} direction="up" triggerOnce>
                 <div className="positions-container">
                     <div className="positions-child">
                         <p id="container-label">PhD Applicants</p>

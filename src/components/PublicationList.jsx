@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/componentStyles.css";
 import PublicationCard from "./PublicationCard";
 import { Fade } from "react-awesome-reveal";
+import Loading from '../assets/source.gif';
 
 export default function PublicationList() {
   const [publications, setPublications] = useState([]);
@@ -36,6 +37,15 @@ export default function PublicationList() {
 
   // Ensure publications are new to old
   const sortedYears = Object.keys(publicationsByYear).sort((a,b) => parseInt(b) - parseInt(a));
+
+  // Show loading screen if publications have not loaded in yet
+  if (publications.length === 0) {
+    return (
+      <Fade direction="up" triggerOnce>
+        <img className="loading-gif" src={Loading} alt="loading" />
+      </Fade>
+    );
+  }
 
   return (
     <div className="publist-content">
