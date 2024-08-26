@@ -70,22 +70,7 @@ export default function People() {
         {
             title: 'Past Students',
             content: [
-                {
-                    name: 'John Doe',
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
-                },
-                {
-                    name: 'Jane Show',
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
-                },
-                {
-                    name: 'Bob Dylan',
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
-                },
-                {
-                    name: 'Marcus Doe',
-                    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet vel libero at bibendum.'
-                }
+                {name: 'Chen-Yu Hsu'},{name: 'Hao Wang (Post Doc.)'},{name: 'Deepak Vasisht'},{name: 'Zachary Kabelac'},{name: 'Rumen Hristov (MEng.)'},{name: 'Ezzeldin O. Hamed'},{name: 'Omid Abari'},{name: 'Fadel Adib'},{name: 'Lixin Shi'},{name: 'Haitham Hassanieh'},{name: 'Swarun Kumar'},{name: 'Jue Wang'},{name: 'Shyamnath Gollakota'},{name: 'Hariharan Rahul'},{name: 'Nate Kushman'},{name: 'Szymon Jakubczak'},{name: 'Sachin Katti'},{name: 'Srikanth Kandula'},{name: 'Mingmin Zhao'},{name: 'Shichao Yue'},{name: 'Guo Zhang'},{name: 'Lijie Fan'},{name: 'Yuzhe Yang'},{name: 'Tianhong Li'},{name: 'Yingcheng Liu'},{name: 'Sarah Gurev'},{name: 'Yingcong Chen (Post Doc.)'},{name: 'Yuan Yuan (Post Doc.)'},
             ]
         }
     ]
