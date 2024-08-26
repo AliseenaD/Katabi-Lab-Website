@@ -215,6 +215,10 @@ SCHOLARS SECTION
     color: #750014;
 }
 
+.past-student-title {
+    margin-bottom: 1.5rem;
+}
+
 .scholar-list {
     margin-top: 2rem;
     width: 100%;
@@ -241,6 +245,7 @@ SCHOLARS SECTION
 
 .past-student {
     width: 20%;
+    margin-top: -1.5rem;
 }
 
 .individual-photo img {

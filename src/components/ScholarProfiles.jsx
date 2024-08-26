@@ -6,7 +6,7 @@ export default function ScholarProfiles({ individuals, isPI, isPastStudent }) {
     return (
         <Fade direction="up" triggerOnce>
             <div className="scholar-content">
-                <div className="scholar-title">
+                <div className={`scholar-title ${isPastStudent ? ' past-student-title' : ''}`}>
                     {individuals.title}
                 </div>
                 <ul className="scholar-list">
