@@ -19,7 +19,7 @@ export default function ScholarProfiles({ individuals, isPI, isPastStudent }) {
                                     }
                                 </div>
                                 <div className="individual-description">
-                                    <p id="individual-name">{individual.name}</p>
+                                    <a id="individual-name">{individual.name}</a>
                                     {individual.email ? (<p id="individual-email">email: {individual.email}</p>) : ''}
                                     {isPastStudent ? '' : <p id="individual-bio">{individual.bio}</p>}
                                 </div>

@@ -11,7 +11,7 @@ import ReactGA from "react-ga4";
 
 //ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
 
-export default function Home() {
+export default function Home() { 
     // GOOGLE ANALYTICS  
     /*
     console.log("GA Measurement ID:", process.env.REACT_APP_GA_MEASUREMENT_ID);
