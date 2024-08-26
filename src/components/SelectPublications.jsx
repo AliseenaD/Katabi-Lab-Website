@@ -15,7 +15,7 @@ export default function SelectPublications() {
             information: 'ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp 2020)'
         },
         {
-            link: 'https://rf-diary.csail.mit.edu/',
+            link: 'https://www.nature.com/articles/s41591-022-01932-x/',
             photo: Paper2,
             title: 'Artificial intelligence-enabled detection and assessment of Parkinson’s disease using nocturnal breathing signals',
             authors: 'Yuzhe Yang, Yuan Yuan, Guo Zhang, Hao Wang, Ying-Cong Chen, Yingcheng Liu, Christopher G. Tarolli, Daniel Crepeau, Jan Bukartyk, Mithri R. Junna, Aleksandar Videnovic, Terry D. Ellis, Melissa C. Lipford, Ray Dorsey, Dina Katabi',
