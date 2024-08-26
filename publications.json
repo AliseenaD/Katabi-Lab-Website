@@ -1,0 +1,610 @@
+{
+    "search_metadata": {
+        "id": "66cd1065f93388be7207eff9",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/befa6d47db9f23fb/66cd1065f93388be7207eff9.json",
+        "created_at": "2024-08-26 23:31:49 UTC",
+        "processed_at": "2024-08-26 23:31:49 UTC",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=nst5fHgAAAAJ&hl=en&sortby=pubdate",
+        "raw_html_file": "https://serpapi.com/searches/befa6d47db9f23fb/66cd1065f93388be7207eff9.html",
+        "total_time_taken": 1.62
+    },
+    "search_parameters": {
+        "engine": "google_scholar_author",
+        "author_id": "nst5fHgAAAAJ",
+        "hl": "en",
+        "sort": "pubdate"
+    },
+    "author": {
+        "name": "Dina Katabi",
+        "affiliations": "Thuan and Nicole Pham Professor, MIT",
+        "email": "Verified email at ai.mit.edu",
+        "website": "https://people.csail.mit.edu/dina/",
+        "interests": [
+            {
+                "title": "Machine learning for health",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:machine_learning_for_health",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amachine_learning_for_health"
+            },
+            {
+                "title": "wireless sensing",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:wireless_sensing",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Awireless_sensing"
+            },
+            {
+                "title": "computer networks",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_networks",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_networks"
+            }
+        ],
+        "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_128.png"
+    },
+    "articles": [
+        {
+            "title": "What Radio Waves Tell Us about Sleep!",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:ghEM2AJqZyQC",
+            "citation_id": "nst5fHgAAAAJ:ghEM2AJqZyQC",
+            "authors": "H He, C Li, W Ganglberger, K Gallagher, R Hristov, M Ouroutzoglou, ...",
+            "publication": "Sleep, zsae187, 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "The limits of fair medical imaging AI in real-world generalization",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:wE-fMHVdjMkC",
+            "citation_id": "nst5fHgAAAAJ:wE-fMHVdjMkC",
+            "authors": "Y Yang, H Zhang, JW Gichoya, D Katabi, M Ghassemi",
+            "publication": "Nature Medicine, 1-11, 2024",
+            "cited_by": {
+                "value": 1,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1317560336399399985",
+                "serpapi_link": "https://serpapi.com/search.json?cites=1317560336399399985&engine=google_scholar&hl=en",
+                "cites_id": "1317560336399399985"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Contactless Polysomnography: What Radio Waves Tell Us about Sleep",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:zdjWy_NXXwUC",
+            "citation_id": "nst5fHgAAAAJ:zdjWy_NXXwUC",
+            "authors": "H He, C Li, W Ganglberger, K Gallagher, R Hristov, M Ouroutzoglou, ...",
+            "publication": "arXiv preprint arXiv:2405.11739, 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Rank-n-contrast: learning continuous representations for regression",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:2v_ZtQDX9iAC",
+            "citation_id": "nst5fHgAAAAJ:2v_ZtQDX9iAC",
+            "authors": "K Zha, P Cao, J Son, Y Yang, D Katabi",
+            "publication": "Advances in Neural Information Processing Systems 36, 2024",
+            "cited_by": {
+                "value": 16,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10482707881364648104",
+                "serpapi_link": "https://serpapi.com/search.json?cites=10482707881364648104&engine=google_scholar&hl=en",
+                "cites_id": "10482707881364648104"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Improving clip training with language rewrites",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:aIdbFUkbNIkC",
+            "citation_id": "nst5fHgAAAAJ:aIdbFUkbNIkC",
+            "authors": "L Fan, D Krishnan, P Isola, D Katabi, Y Tian",
+            "publication": "Advances in Neural Information Processing Systems 36, 2024",
+            "cited_by": {
+                "value": 85,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15046122010925495004",
+                "serpapi_link": "https://serpapi.com/search.json?cites=15046122010925495004&engine=google_scholar&hl=en",
+                "cites_id": "15046122010925495004"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Learning vision from models rivals learning vision from data",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:-DxkuPiZhfEC",
+            "citation_id": "nst5fHgAAAAJ:-DxkuPiZhfEC",
+            "authors": "Y Tian, L Fan, K Chen, D Katabi, D Krishnan, P Isola",
+            "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern \u2026, 2024",
+            "cited_by": {
+                "value": 20,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7861706910375100945",
+                "serpapi_link": "https://serpapi.com/search.json?cites=7861706910375100945&engine=google_scholar&hl=en",
+                "cites_id": "7861706910375100945"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Scaling laws of synthetic images for model training... for now",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:qwy9JoKyICEC",
+            "citation_id": "nst5fHgAAAAJ:qwy9JoKyICEC",
+            "authors": "L Fan, K Chen, D Krishnan, D Katabi, P Isola, Y Tian",
+            "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern \u2026, 2024",
+            "cited_by": {
+                "value": 25,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5011843959410664417",
+                "serpapi_link": "https://serpapi.com/search.json?cites=5011843959410664417&engine=google_scholar&hl=en",
+                "cites_id": "5011843959410664417"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Contactless Oxygen Monitoring with Radio Waves and Gated Transformer",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:SIv7DqKytYAC",
+            "citation_id": "nst5fHgAAAAJ:SIv7DqKytYAC",
+            "authors": "H He, Y Yuan, YC Chen, P Cao, D Katabi",
+            "publication": "Machine Learning for Healthcare Conference, 248-265, 2023",
+            "cited_by": {
+                "value": 1,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17945834698795904617",
+                "serpapi_link": "https://serpapi.com/search.json?cites=17945834698795904617&engine=google_scholar&hl=en",
+                "cites_id": "17945834698795904617"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "The limits of fair medical imaging ai in the wild",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:v6i8RKmR8ToC",
+            "citation_id": "nst5fHgAAAAJ:v6i8RKmR8ToC",
+            "authors": "Y Yang, H Zhang, JW Gichoya, D Katabi, M Ghassemi",
+            "publication": "arXiv preprint arXiv:2312.10083, 2023",
+            "cited_by": {
+                "value": 4,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10355714186491057187",
+                "serpapi_link": "https://serpapi.com/search.json?cites=10355714186491057187&engine=google_scholar&hl=en",
+                "cites_id": "10355714186491057187"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Self-conditioned image generation via generating representations",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:g5Ck-dwhA_QC",
+            "citation_id": "nst5fHgAAAAJ:g5Ck-dwhA_QC",
+            "authors": "T Li, D Katabi, K He",
+            "publication": "arXiv preprint arXiv:2312.03701, 2023",
+            "cited_by": {
+                "value": 9,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10701724586108748900",
+                "serpapi_link": "https://serpapi.com/search.json?cites=10701724586108748900&engine=google_scholar&hl=en",
+                "cites_id": "10701724586108748900"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "System and method for wireless detection and measurement of a subject rising from rest",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:O0nohqN1r9EC",
+            "citation_id": "nst5fHgAAAAJ:O0nohqN1r9EC",
+            "authors": "R Hristov, Z Kabelac, H Rahul, D Katabi",
+            "publication": "US Patent 11,832,933, 2023",
+            "cited_by": {
+                "value": 1,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2719945163985290246",
+                "serpapi_link": "https://serpapi.com/search.json?cites=2719945163985290246&engine=google_scholar&hl=en",
+                "cites_id": "2719945163985290246"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Digital Phenotyping of Autoimmune Diseases Using Non-Contact Radio Frequency Sensing: A Longitudinal Study Comparing Systemic Lupus Erythematosus and Healthy Participants",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:8Xgff_V0N9gC",
+            "citation_id": "nst5fHgAAAAJ:8Xgff_V0N9gC",
+            "authors": "M Boukhechba, E Reynoso, I Pandis, K Mosca, R Hristov, S Yue, Y Ai, ...",
+            "publication": "Adjunct Proceedings of the 2023 ACM International Joint Conference on \u2026, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Leveraging Unpaired Data for Vision-Language Generative Models via Cycle Consistency",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:Xz60mAmATU4C",
+            "citation_id": "nst5fHgAAAAJ:Xz60mAmATU4C",
+            "authors": "T Li, S Bhardwaj, Y Tian, H Zhang, J Barber, D Katabi, G Lajoie, H Chang, ...",
+            "publication": "arXiv preprint arXiv:2310.03734, 2023",
+            "cited_by": {
+                "value": 1,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4808759083423112697",
+                "serpapi_link": "https://serpapi.com/search.json?cites=4808759083423112697&engine=google_scholar&hl=en",
+                "cites_id": "4808759083423112697"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Method and System for Detection of Inflammatory Conditions",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:qe6vwMD2xtsC",
+            "citation_id": "nst5fHgAAAAJ:qe6vwMD2xtsC",
+            "authors": "R Hristov, H Rahul, S Yue, Y Ai, B Maggs, D Katabi",
+            "publication": "US Patent App. 18/188,160, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Adversarial Continual Learning to Transfer Self-Supervised Speech Representations for Voice Pathology Detection",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:sA9dB-pw3HoC",
+            "citation_id": "nst5fHgAAAAJ:sA9dB-pw3HoC",
+            "authors": "D Park, Y Yu, D Katabi, HK Kim",
+            "publication": "IEEE Signal Processing Letters, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Reparo: Loss-Resilient Generative Codec for Video Conferencing",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:Xl6nMSl579sC",
+            "citation_id": "nst5fHgAAAAJ:Xl6nMSl579sC",
+            "authors": "T Li, V Sivaraman, P Karimi, L Fan, M Alizadeh, D Katabi",
+            "publication": "arXiv preprint arXiv:2305.14135, 2023",
+            "cited_by": {
+                "value": 4,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10957621460494301993",
+                "serpapi_link": "https://serpapi.com/search.json?cites=10957621460494301993&engine=google_scholar&hl=en",
+                "cites_id": "10957621460494301993"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Change is hard: A closer look at subpopulation shift",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:jSAVyFp_754C",
+            "citation_id": "nst5fHgAAAAJ:jSAVyFp_754C",
+            "authors": "Y Yang, H Zhang, D Katabi, M Ghassemi",
+            "publication": "arXiv preprint arXiv:2302.12254, 2023",
+            "cited_by": {
+                "value": 60,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5673711705571315770",
+                "serpapi_link": "https://serpapi.com/search.json?cites=5673711705571315770&engine=google_scholar&hl=en",
+                "cites_id": "5673711705571315770"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "On Mitigating Shortcut Learning for Fair Chest X-ray Classification under Distribution Shift",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:hSRAE-fF4OAC",
+            "citation_id": "nst5fHgAAAAJ:hSRAE-fF4OAC",
+            "authors": "Y Yang, H Zhang, D Katabi, M Ghassemi",
+            "publication": "NeurIPS 2023 Workshop on Distribution Shifts: New Frontiers with Foundation \u2026, 2023",
+            "cited_by": {
+                "value": 2,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9584590596041849852",
+                "serpapi_link": "https://serpapi.com/search.json?cites=9584590596041849852&engine=google_scholar&hl=en",
+                "cites_id": "9584590596041849852"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Unsupervised Object Localization with Representer Point Selection",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:DyXnQzXoVgIC",
+            "citation_id": "nst5fHgAAAAJ:DyXnQzXoVgIC",
+            "authors": "Y Song, S Jang, D Katabi, J Son",
+            "publication": "Proceedings of the IEEE/CVF International Conference on Computer Vision \u2026, 2023",
+            "cited_by": {
+                "value": 2,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7391261250330905274",
+                "serpapi_link": "https://serpapi.com/search.json?cites=7391261250330905274&engine=google_scholar&hl=en",
+                "cites_id": "7391261250330905274"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Mage: Masked generative encoder to unify representation learning and image synthesis",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nst5fHgAAAAJ&sortby=pubdate&citation_for_view=nst5fHgAAAAJ:QUX0mv85b1cC",
+            "citation_id": "nst5fHgAAAAJ:QUX0mv85b1cC",
+            "authors": "T Li, H Chang, S Mishra, H Zhang, D Katabi, D Krishnan",
+            "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern \u2026, 2023",
+            "cited_by": {
+                "value": 89,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14523816043890544352",
+                "serpapi_link": "https://serpapi.com/search.json?cites=14523816043890544352&engine=google_scholar&hl=en",
+                "cites_id": "14523816043890544352"
+            },
+            "year": "2023"
+        }
+    ],
+    "cited_by": {
+        "table": [
+            {
+                "citations": {
+                    "all": 39696,
+                    "since_2019": 16114
+                }
+            },
+            {
+                "h_index": {
+                    "all": 94,
+                    "since_2019": 68
+                }
+            },
+            {
+                "i10_index": {
+                    "all": 179,
+                    "since_2019": 145
+                }
+            }
+        ],
+        "graph": [
+            {
+                "year": 2003,
+                "citations": 141
+            },
+            {
+                "year": 2004,
+                "citations": 222
+            },
+            {
+                "year": 2005,
+                "citations": 351
+            },
+            {
+                "year": 2006,
+                "citations": 525
+            },
+            {
+                "year": 2007,
+                "citations": 691
+            },
+            {
+                "year": 2008,
+                "citations": 1014
+            },
+            {
+                "year": 2009,
+                "citations": 1425
+            },
+            {
+                "year": 2010,
+                "citations": 1707
+            },
+            {
+                "year": 2011,
+                "citations": 1825
+            },
+            {
+                "year": 2012,
+                "citations": 1923
+            },
+            {
+                "year": 2013,
+                "citations": 1980
+            },
+            {
+                "year": 2014,
+                "citations": 2158
+            },
+            {
+                "year": 2015,
+                "citations": 2140
+            },
+            {
+                "year": 2016,
+                "citations": 2171
+            },
+            {
+                "year": 2017,
+                "citations": 2360
+            },
+            {
+                "year": 2018,
+                "citations": 2474
+            },
+            {
+                "year": 2019,
+                "citations": 2639
+            },
+            {
+                "year": 2020,
+                "citations": 2897
+            },
+            {
+                "year": 2021,
+                "citations": 2804
+            },
+            {
+                "year": 2022,
+                "citations": 2911
+            },
+            {
+                "year": 2023,
+                "citations": 2857
+            },
+            {
+                "year": 2024,
+                "citations": 1987
+            }
+        ]
+    },
+    "public_access": {
+        "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=nst5fHgAAAAJ",
+        "available": 20,
+        "not_available": 3
+    },
+    "co_authors": [
+        {
+            "name": "Sachin Katti",
+            "link": "https://scholar.google.com/citations?user=cc4Qi_IAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=cc4Qi_IAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "cc4Qi_IAAAAJ",
+            "affiliations": "Professor of EE & CS, Stanford University",
+            "email": "Verified email at stanford.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=cc4Qi_IAAAAJ&citpid=3"
+        },
+        {
+            "name": "Hariharan Rahul",
+            "link": "https://scholar.google.com/citations?user=6pKo33QAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=6pKo33QAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "6pKo33QAAAAJ",
+            "email": "Verified email at csail.mit.edu",
+            "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+        },
+        {
+            "name": "Zachary Kabelac",
+            "link": "https://scholar.google.com/citations?user=TL0h_YkAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=TL0h_YkAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "TL0h_YkAAAAJ",
+            "affiliations": "MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+        },
+        {
+            "name": "Haitham Hassanieh",
+            "link": "https://scholar.google.com/citations?user=s5-hnX8AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=s5-hnX8AAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "s5-hnX8AAAAJ",
+            "affiliations": "Associate Professor, EPFL",
+            "email": "Verified email at epfl.ch",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=s5-hnX8AAAAJ&citpid=7"
+        },
+        {
+            "name": "Fadel Adib",
+            "link": "https://scholar.google.com/citations?user=OxKLBqwAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=OxKLBqwAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "OxKLBqwAAAAJ",
+            "affiliations": "Associate Professor, MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=OxKLBqwAAAAJ&citpid=23"
+        },
+        {
+            "name": "Swarun Kumar",
+            "link": "https://scholar.google.com/citations?user=WfaqxlgAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=WfaqxlgAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "WfaqxlgAAAAJ",
+            "affiliations": "Sathaye Family Foundation Professor, CMU",
+            "email": "Verified email at cmu.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=WfaqxlgAAAAJ&citpid=4"
+        },
+        {
+            "name": "Shyam Gollakota",
+            "link": "https://scholar.google.com/citations?user=w_HJY2MAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=w_HJY2MAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "w_HJY2MAAAAJ",
+            "affiliations": "Professor, Allen School of Computer Science and Engineering, University of Washington",
+            "email": "Verified email at cs.washington.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=w_HJY2MAAAAJ&citpid=2"
+        },
+        {
+            "name": "Muriel Medard",
+            "link": "https://scholar.google.com/citations?user=6_oL_9IAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=6_oL_9IAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "6_oL_9IAAAAJ",
+            "affiliations": "Professor of EECS, MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=6_oL_9IAAAAJ&citpid=1"
+        },
+        {
+            "name": "Piotr Indyk",
+            "link": "https://scholar.google.com/citations?user=oOwNKsAAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=oOwNKsAAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "oOwNKsAAAAAJ",
+            "affiliations": "Professor of Electrical Engineering and Computer Science, MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+        },
+        {
+            "name": "Tianhong Li",
+            "link": "https://scholar.google.com/citations?user=AI2f3dkAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=AI2f3dkAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "AI2f3dkAAAAJ",
+            "affiliations": "PhD student of EECS, MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=AI2f3dkAAAAJ&citpid=1"
+        },
+        {
+            "name": "Deepak Vasisht",
+            "link": "https://scholar.google.com/citations?user=qph2BRgAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=qph2BRgAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "qph2BRgAAAAJ",
+            "affiliations": "University of Illinois at Urbana-Champaign",
+            "email": "Verified email at illinois.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=qph2BRgAAAAJ&citpid=6"
+        },
+        {
+            "name": "Srikanth Kandula",
+            "link": "https://scholar.google.com/citations?user=2QkR2WoAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=2QkR2WoAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "2QkR2WoAAAAJ",
+            "affiliations": "Microsoft",
+            "email": "Verified email at microsoft.com",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=2QkR2WoAAAAJ&citpid=1"
+        },
+        {
+            "name": "Mingmin Zhao",
+            "link": "https://scholar.google.com/citations?user=F5PfbSwAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=F5PfbSwAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "F5PfbSwAAAAJ",
+            "affiliations": "Assistant Professor, University of Pennsylvania",
+            "email": "Verified email at cis.upenn.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=F5PfbSwAAAAJ&citpid=9"
+        },
+        {
+            "name": "Lixin Shi",
+            "link": "https://scholar.google.com/citations?user=b8pLQq0AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=b8pLQq0AAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "b8pLQq0AAAAJ",
+            "affiliations": "Massachusetts Institute of Technology",
+            "email": "Verified email at csail.mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=b8pLQq0AAAAJ&citpid=5"
+        },
+        {
+            "name": "Hao He",
+            "link": "https://scholar.google.com/citations?user=v1sUoqwAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=v1sUoqwAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "v1sUoqwAAAAJ",
+            "affiliations": "MIT, CSAIL",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=v1sUoqwAAAAJ&citpid=3"
+        },
+        {
+            "name": "Rumen Hristov",
+            "link": "https://scholar.google.com/citations?user=5kA3Te4AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=5kA3Te4AAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "5kA3Te4AAAAJ",
+            "affiliations": "Emerald Innovations, MIT",
+            "email": "Verified email at mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=5kA3Te4AAAAJ&citpid=2"
+        },
+        {
+            "name": "Wenjun Hu",
+            "link": "https://scholar.google.com/citations?user=SvnnEI8AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=SvnnEI8AAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "SvnnEI8AAAAJ",
+            "affiliations": "Assistant Professor of Electrical Engineering and Computer Science, Yale University",
+            "email": "Verified email at yale.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=SvnnEI8AAAAJ&citpid=2"
+        },
+        {
+            "name": "Jon Crowcroft",
+            "link": "https://scholar.google.com/citations?user=qnMs-XYAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=qnMs-XYAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "qnMs-XYAAAAJ",
+            "affiliations": "University of Cambridge",
+            "email": "Verified email at cl.cam.ac.uk",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=qnMs-XYAAAAJ&citpid=2"
+        },
+        {
+            "name": "Nate Kushman",
+            "link": "https://scholar.google.com/citations?user=I_YIc0YAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=I_YIc0YAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "I_YIc0YAAAAJ",
+            "affiliations": "Research Scientist, DeepMind",
+            "email": "Verified email at kushman.org",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=I_YIc0YAAAAJ&citpid=8"
+        },
+        {
+            "name": "Daniela Rus",
+            "link": "https://scholar.google.com/citations?user=910z20QAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=910z20QAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate",
+            "author_id": "910z20QAAAAJ",
+            "affiliations": "Andrew (1956) and Erna Viterbi Professor of Computer Science, MIT",
+            "email": "Verified email at csail.mit.edu",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=910z20QAAAAJ&citpid=3"
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?author_id=nst5fHgAAAAJ&engine=google_scholar_author&hl=en&sort=pubdate&start=20"
+    }
+}
