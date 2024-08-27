@@ -3,27 +3,15 @@ import "../styles/componentStyles.css";
 import PublicationCard from "./PublicationCard";
 import { Fade } from "react-awesome-reveal";
 import Loading from '../assets/source.gif';
+import publicationsData from '../publications.json';
 
 export default function PublicationList() {
   const [publications, setPublications] = useState([]);
 
   useEffect(() => {
-    fetchPublications();
+    setPublications(publicationsData.articles);
   }, []);
 
-  // Fetch the publications
-  async function fetchPublications() {
-    try {
-      const response = await fetch("http://localhost:3000/publications");
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data = await response.json();
-      setPublications(data.articles);
-    } catch (error) {
-      console.error("Error fetching Google Scholar data:", error);
-    }
-  }
 
   // Group publications by year
   const publicationsByYear = publications.reduce((acc, publication) => {
