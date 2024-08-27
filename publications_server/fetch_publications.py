@@ -16,7 +16,7 @@ try:
     #    "id": "66cd1065f93388be7207eff9",
     #    "status": "Success",    
     # Save the data to a JSON file
-    with open("../publications.json", "w") as file:
+    with open("../src/publications.json", "w") as file:
         json.dump(data, file, indent=4)
     print("Data fetched and saved to publications.json")    
     
