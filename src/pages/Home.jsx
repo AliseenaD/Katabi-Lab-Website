@@ -9,18 +9,12 @@ import { Fade } from "react-awesome-reveal";
 import Logos from "../components/Logos";
 import ReactGA from "react-ga4";
 
-//ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
-
 export default function Home() { 
-    // GOOGLE ANALYTICS  
-    /*
-    console.log("GA Measurement ID:", process.env.REACT_APP_GA_MEASUREMENT_ID);
-    // Track page views
+    // Google analyitcs
     useEffect(() => {
-        // Send pageview with a custom path
-        ReactGA.send({ hitType: "pageview", page: "/home" });
-    }, []);
-    */
+        ReactGA.initialize('G-JQVK2Z45WT');
+        ReactGA.send("pageview");
+      }, []);
 
     return (
         <div className='home-content'>

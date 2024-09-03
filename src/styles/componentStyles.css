@@ -301,7 +301,7 @@ SELECT PUBLICATIONS STYLES
 
 #publications-title {
     font-size: 30px;
-    margin-bottom: 1rem;
+    padding: 2rem 0 1rem 0;
     text-align: center;
     color: #750014;
     font-weight: 700;
@@ -697,8 +697,9 @@ FOOTER STYLES
     }
 
     .researchIntro-container {
+        box-sizing: border-box;
         width: 100%;
-        padding: 0;
+        padding: 0rem 1rem;
         text-align: center;
     }
 
@@ -718,8 +719,8 @@ FOOTER STYLES
     }
 
     .banner-image {
-        background-size: 200%;
-        background-position: -10rem 2rem;
+        background-size: 210%;
+        background-position: -10.5rem 2rem;
         background-repeat: no-repeat;
     }
 }
@@ -729,5 +730,11 @@ FOOTER STYLES
         background-size: 240%;
         background-position: -11rem 2rem;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .welcome-content {
+        margin-top: 2rem;
     }
 }
