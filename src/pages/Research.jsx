@@ -16,12 +16,12 @@ export default function Reserch() {
         {
             title: 'Biomarkers & Health Outcomes',
             image: PlaceOne,
-            description: `We collaborate with hospitals across the US in collecting sleep studies, and use tools spanning machine learning, data visualization, and statistical analysis to discover and understand new ways of detecting and monitoring diseases. Our current projects are with Neurological diseases (Parkinson’s Disease, Alzheimer’s disease, Epilepsy), Psychiatric diseases (Major Depressive Disorder, General Anxiety Disorder) and inflammatory diseases (Cirrhosis, Crohn’s Disease)`
+            description: `We collaborate with medical doctors and hospitals across the US in conducting clinical studies, and use tools spanning machine learning, data visualization, and statistical analysis to discover and understand new ways of detecting and monitoring diseases and therapeutic response. Our current projects are with Neurological diseases (Parkinson’s Disease, Alzheimer’s disease, Epilepsy), Psychiatric diseases (Major Depressive Disorder, General Anxiety Disorder) and inflammatory diseases (Cirrhosis, Crohn’s Disease).`
         }, 
         {
             title: 'Radio-Based Contactless Sensing',
             image: PlaceTwo,
-            description: `Using our own proprietary technology developed by the lab, we have the ability to extract physiological signals from radio frequency signals with the use of a single wireless sensor in the home or in the hospital. This allows us to continuously monitor individuals with diseases for long periods of time without any sort of wearable sensor or necessary participation from the patient. We deploy and collect data from individuals with a variety of disease conditions (see: Discovering Biomarkers) to track their disease onset and recovery path.`
+            description: `Using our own proprietary technology developed by the lab, we have the ability to passively extract physiological signals from radio waves in the environment while patients are going about their normal lives in their own homes. This allows us to continuously monitor individuals with diseases for long periods of time without any sort of wearable sensors or active participation from the patient. We deploy and collect data from individuals with a variety of disease conditions (see: Discovering Biomarkers) to track their disease progression and response to therapeutics.`
         },
         {
             title: 'Learning with Limited Supervision or Imbalanced Data',

@@ -2,6 +2,7 @@
   "name": "katabi-lab-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/netmit/lab/",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@testing-library/jest-dom": "^5.17.0",
